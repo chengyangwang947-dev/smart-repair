@@ -1,0 +1,17 @@
+{
+  "name": "smart-repair",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "智能报修小助手：两人协作开发练习（Vercel 函数 + Supabase + AI 排查建议）",
+  "scripts": {
+    "dev": "node scripts/local-server.mjs",
+    "start": "node scripts/local-server.mjs"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
